@@ -160,6 +160,7 @@ footer h4 {
   }
   .title {
     text-align: center;
+    margin-left: 0px;
   }
   .top-main {
     flex-direction: column;
@@ -247,6 +248,7 @@ footer h4 {
   }
   .title {
     text-align: center;
+    margin-left: 0px;
   }
   .camera {
     width: 100%;
