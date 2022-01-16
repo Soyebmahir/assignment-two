@@ -115,12 +115,13 @@ body {
   width: 190px;
 }
 .see-more {
-  margin-right: 1px;
-  margin-left: 866px;
   text-decoration: none;
   color: #e02c6d;
   font: 7px;
   font-weight: 600;
+  float: right;
+  margin-right: 375px;
+  /* margin-left: 800px; */
 }
 .extra {
   display: flex;
@@ -153,9 +154,16 @@ footer h4 {
 .footer p {
   margin: 0px;
 }
-@media (max-width: 400px) {
+
+/* --------Display Smartphones-------- */
+@media (max-width: 757px) {
+  body {
+    width: 100%;
+  }
   .top-main {
     flex-direction: column;
+    margin: 0px;
+    padding: 0px;
   }
   .camera {
     width: 100%;
@@ -168,6 +176,59 @@ footer h4 {
     width: 100%;
   }
   .as-influencer {
-    width: auto;
+    width: 100%;
+    margin-left: 0px;
   }
+  .logo {
+    /* display: grid; */
+    /* grid-template-rows: 100px 7fr; */
+    flex-direction: column;
+    width: 100%;
+    border: none;
+  }
+  .all-div {
+    width: 100%;
+    margin-left: 0px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .see-more {
+    /* width: 100%; */
+    float: left;
+  }
+  .popular-collection {
+    width: 100%;
+  }
+  .collection-div {
+    background-color: seashell;
+    width: 190px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+
+  .extra {
+    width: 100%;
+    display: grid;
+  }
+  .extra-mark-two {
+    margin-left: 0px;
+    padding: 0px;
+  }
+  .extra-mark {
+    margin-left: 0px;
+  }
+  .smartphone {
+    margin-left: 0px;
+  }
+  .smart-para {
+    width: 100%;
+  }
+  .logo {
+    width: 40%;
+  }
+  .footer {
+    width: 100%;
+  }
+  /* html {
+    width: 100%;
+  } */
 }
