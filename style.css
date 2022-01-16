@@ -1,0 +1,173 @@
+/* google font  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+}
+.upper-top {
+  background-color: white;
+}
+.influencer {
+  margin-left: 150px;
+}
+.top-main {
+  display: flex;
+  background-color: white;
+}
+.as-influencer {
+  /* width: 588px; */
+  margin-left: 119px;
+  width: 50%;
+}
+.starting {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 40px;
+  font-style: normal;
+  margin-bottom: 10px;
+}
+.details {
+  margin-top: 0%;
+  font-weight: 490;
+  font-size: 16px;
+  padding-right: 150px;
+}
+
+.prebook {
+  text-decoration: none;
+  border-radius: 20px;
+  background-color: #e02c6d;
+  color: white;
+  padding: 4px 10px;
+}
+.camera {
+  /* width: 440px;
+  height: 414px; */
+  /* margin-left: 133px; */
+  width: 50%;
+}
+
+/* .camera:hover .first-image {
+  transform: scale(1.3);
+} */
+
+.first-image:hover {
+  transform: scale(1.3);
+}
+.first-image {
+  width: 50%;
+}
+.logo {
+  display: flex;
+
+  width: 1000px;
+  justify-content: center;
+  margin-left: 120px;
+  margin-top: 20px;
+  border: 1px solid rgb(153, 149, 156);
+}
+.logos {
+  margin: 0px 15px 0px 15px;
+  width: 8%;
+  padding-top: 8px;
+}
+
+.name {
+  padding: 0px;
+  margin: 0px;
+}
+.price {
+  margin: 0px;
+  margin-top: 5px;
+}
+.fas {
+  font-size: 10px;
+}
+.star {
+  margin: 0px;
+}
+.delivery {
+  margin-top: 2px;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.collection {
+  text-align: center;
+}
+.all-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* column-gap: 2px; */
+  justify-content: center;
+  margin-left: 300px;
+
+  width: 700px;
+}
+.collection-div {
+  background-color: seashell;
+  width: 190px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.img-collection {
+  height: 150px;
+  width: 190px;
+}
+.see-more {
+  margin-right: 1px;
+  margin-left: 866px;
+  text-decoration: none;
+  color: #e02c6d;
+  font: 7px;
+  font-weight: 600;
+}
+.extra {
+  display: flex;
+  width: 1000px;
+  margin-top: 50px;
+}
+.extra-mark {
+  width: 50%;
+}
+
+.extra-mark-two {
+  margin-left: 200px;
+  padding-left: 150px;
+}
+.smartphone {
+  width: 100%;
+  margin-left: 300px;
+}
+
+.footer {
+  background-color: rgb(56, 56, 73);
+  color: white;
+  text-align: center;
+}
+footer h4 {
+  padding-top: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.footer p {
+  margin: 0px;
+}
+@media (max-width: 700px) {
+  .top-main {
+    flex-direction: column;
+  }
+  .camera {
+    width: 100%;
+    margin-left: 50px;
+  }
+  /* .upper-top {
+    width: 100%;
+  } */
+  .top-main {
+    width: 100%;
+  }
+  .as-influencer {
+    width: auto;
+  }
+}
