@@ -7,6 +7,9 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: white;
 }
+.title {
+  margin-left: 126px;
+}
 .upper-top {
   background-color: white;
 }
@@ -18,7 +21,6 @@ body {
   background-color: white;
 }
 .as-influencer {
-  /* width: 588px; */
   margin-left: 119px;
   width: 50%;
 }
@@ -44,15 +46,8 @@ body {
   padding: 4px 10px;
 }
 .camera {
-  /* width: 440px;
-  height: 414px; */
-  /* margin-left: 133px; */
   width: 50%;
 }
-
-/* .camera:hover .first-image {
-  transform: scale(1.3);
-} */
 
 .first-image:hover {
   transform: scale(1.3);
@@ -163,6 +158,9 @@ footer h4 {
   body {
     width: 100%;
   }
+  .title {
+    text-align: center;
+  }
   .top-main {
     flex-direction: column;
     margin: 0px;
@@ -246,6 +244,9 @@ footer h4 {
     flex-direction: column;
     margin: 0px;
     padding: 0px;
+  }
+  .title {
+    text-align: center;
   }
   .camera {
     width: 100%;
